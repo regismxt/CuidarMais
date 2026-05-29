@@ -15,7 +15,14 @@ const candidaturaRoutes = require('./routes/candidatura.routes');
 const adminRoutes = require('./routes/admin.routes');
 
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:5174',
+        'http://localhost:5175',
+        'https://cuidar-mais-sand.vercel.app',
+        'https://cuidar-mais-seven.vercel.app',
+        'https://cuidar-mais-regismxts-projects.vercel.app'
+    ],
     credentials: true,
 };
 

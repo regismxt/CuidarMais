@@ -16,6 +16,7 @@
     "axios": "^1.13.6",
     "graphql": "^16.13.1",
     "leaflet": "^1.9.4",
+    "mongodb": "^7.1.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-leaflet": "^5.0.0",
